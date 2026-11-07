@@ -44,7 +44,7 @@ export function LoginButton() {
         })
       }
     >
-      Login with Stoat SSO
+      Login with North Chat SSO
     </Button>
   );
 }

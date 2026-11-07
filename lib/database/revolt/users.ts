@@ -20,7 +20,7 @@ export function isRestrictedUser(user: RevoltUser) {
 }
 
 /**
- * Generate Stoat user information as a smaller payload
+ * Generate North Chat user information as a smaller payload
  * @param user User
  * @returns Stripped User
  */

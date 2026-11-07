@@ -10,8 +10,10 @@ import { Flex } from "@radix-ui/themes";
 
 import styles from "./layout.module.css";
 
-const HR_EXISTS = existsSync("app/panel/hr");
-const MOD_EXISTS = existsSync("app/panel/mod");
+// The HR and moderation panels are private submodules upstream; hide them
+// when they are not present so the public inspect panel remains usable.
+const HR_EXISTS = existsSync("app/panel/hr/page.tsx");
+const MOD_EXISTS = existsSync("app/panel/mod/page.tsx");
 
 export default async function Layout({
   children,

@@ -41,7 +41,7 @@ export const TYPES_VALID_CATEGORY = {
     "Sharing explicit content in places where it can't be age restricted",
   "Unsolicited Advertising": "",
   Fraud: "Financial scams or other types of fraud",
-  "Account Trade": "Buying or selling of Revolt accounts",
+  "Account Trade": "Buying or selling of North Chat accounts",
   "Artificial Growth": "Providing or using means to artificially grow servers",
   Evasion: "Evasion of permanent platform-level moderation actions",
   Hacking: "Engaging in hacking such as phishing, malware, DoS, etc",

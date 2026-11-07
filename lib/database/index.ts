@@ -36,7 +36,7 @@ export function revoltDb() {
 }
 
 /**
- * Call a procedure from the Revolt backend
+ * Call a procedure from the North Chat backend
  */
 export async function callProcedure<A extends any[], R>(
   fn: (...args: A) => R,

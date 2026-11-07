@@ -31,7 +31,7 @@ async function printVersion() {
   );
 
   console.log("\n");
-  createLogger(bgBlue(" Stoat "))(`Swiss Army Knife v${version}`);
+  createLogger(bgBlue(" North Chat "))(`Swiss Army Knife v${version}`);
 }
 
 async function loadModules() {

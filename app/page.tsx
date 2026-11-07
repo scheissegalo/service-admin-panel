@@ -18,7 +18,7 @@ export default function Home() {
       <Card className="p-4">
         <Flex direction="column" gap="4">
           <Heading as="h1" size="8" className={comicNeue.className}>
-            Stoat Admin Panel
+            North Chat Admin Panel
           </Heading>
 
           <LoginButton />
